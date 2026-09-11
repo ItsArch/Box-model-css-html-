@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .subscribe {
+            background-color:rgb(200, 0, 0);
+            border-style: none;
+            color: white;
+            height: 36px;
+            width: 105px;
+            border-radius: 3px;
+            cursor: pointer;
+            margin-right: 8px;
+            transition: opacity 0.15s;
+        }
+            .subscribe:hover
+                {
+                    opacity: 0.7;
+                }
+            .subscribe:active /*when you click the button*/
+                {
+                    opacity: 0.4;
+                }
+
+
+        .join {
+            border-color: rgb(71, 111, 243);
+            background-color: white;
+            border-style: solid;
+            border-radius: 3px;
+            border-width: 1px;
+            height: 36px;
+            width: 65px;
+            color: rgb(71, 111, 243);
+            cursor: pointer;
+            margin-right: 8px;
+            
+            transition: background-color 0.15s, color 0.15s;
+        }
+            .join:hover 
+                {
+                    background-color: rgb(71, 111, 243);
+                    color: white;
+                }
+            .join:active 
+                {
+                    opacity: 0.7;
+                }
+
+        .tweet {
+            background-color: rgba(51, 114, 231, 0.767);
+            border:none;
+            color: white;
+            height: 36px;
+            width: 70px;
+            border-radius: 18px;
+            font-weight: bold;
+            font-size: 15px;
+            cursor: pointer;
+
+            transition: box-shadow 0.15s, opacity 0.15s;
+        }
+            .tweet:hover
+                {
+                    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /*horiontal, vertical, blur*/
+                }
+            .tweet:active
+                {
+                    opacity: 0.6;
+                }
+    </style>
+
+    <button class="subscribe">SUBSCRIBE</button>
+    <button class="join">JOIN</button>
+    <button class="tweet">Tweet</button>
+</body>
+</html>
